@@ -117,9 +117,8 @@ The app is built using **React.js**, **Node.js**, **Express.js**, and **MongoDB*
 ## 🧑‍💼 Author
 
 * **Name**: Tanguturi Manoj Kumar Reddy
-* **Email**: [your.email@example.com](mailto:your.email@example.com)
-* **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-* **GitHub**: [github.com/YourGitHub](https://github.com/YourGitHub)
+* **Email**: [20bcs225@iiitdmj.ac.in](mailto:your.email@example.com)
+
 
 ---
 
@@ -134,11 +133,23 @@ $ git clone https://github.com/YourGitHub/ClubSphere.git
 # Navigate to project folder
 $ cd ClubSphere
 
+# Navigate to server folder
+$ cd Server
+
 # Install dependencies
 $ npm install
 
 # Run the app
 $ npm start
+
+# Navigate to client folder
+$ cd Cient
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run dev
 ```
 
 ---
