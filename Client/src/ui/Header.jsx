@@ -19,7 +19,7 @@ function Header() {
   }
   return (
     <StyledHeader>
-      HEADER
+      ClubSphere
       <Link onClick={logout} to="/login">
         Logout ({JSON.parse(auth).name})
       </Link>

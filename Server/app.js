@@ -27,6 +27,7 @@ app.post("/register", async (req, res) => {
     email: req.body.email,
     password: hash,
   };
+  console.log(userData);
 
   try {
     // Create a new user
@@ -182,5 +183,5 @@ app.get("*", (req, res) =>
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function (req, res) {
-  console.log("Server listed on port 8080");
+  console.log(`Server is running on port ${PORT}`);
 });

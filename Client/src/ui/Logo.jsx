@@ -12,7 +12,7 @@ const Img = styled.img`
 function Logo() {
   return (
     <StyledLogo>
-      <Img src="/vit.jpg" alt="Logo" />
+      <Img src="/iiitdmj.jpg" alt="Logo" />
     </StyledLogo>
   );
 }
