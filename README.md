@@ -93,7 +93,7 @@ The app is built using **React.js**, **Node.js**, **Express.js**, and **MongoDB*
 
 ## 📊 Dashboard
 <div align="center">
-  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/addd61e3-d5d7-4e2d-8d30-5399be4a9121" width="70%" margin="5px"/>
+  <img src="Client\public\screenshots\dashboard.png" width="70%" margin="5px"/>
 </div>
 
 ## 👤 Create Admin
