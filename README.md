@@ -19,8 +19,8 @@ The app is built using **React.js**, **Node.js**, **Express.js**, and **MongoDB*
 
 ## 🚀 Live Demo
 
-* 🔗 [Frontend on Azure Static Web Apps](https://your-frontend-app.azurestaticapps.net)
-* 🔗 [Backend on Azure App Service](https://your-backend-app.azurewebsites.net)
+* 🔗 [Frontend on Azure Static Web Apps](https://clubsphereapp.azurewebsites.net)
+* 🔗 [Backend on Azure App Service](https://clubsphereserver.azurewebsites.net/)
 
 ---
 
