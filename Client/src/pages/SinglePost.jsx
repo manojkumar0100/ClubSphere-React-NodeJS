@@ -113,7 +113,7 @@ const SinglePost = () => {
   useEffect(() => {
     const fetchClubPostDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:8000/user/clubpost/getbyId/${id}`,{
+        const response = await fetch(`https://clubsphereserver.azurewebsites.net/user/clubpost/getbyId/${id}`,{
           headers: {
             "Content-Type": "application/json",
             authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,
@@ -151,7 +151,7 @@ const SinglePost = () => {
   }
 
   function handleShare() {
-    const shareLink = `http://localhost:5173/posts/view/${id}`;
+    const shareLink = `https://clubsphereapp-hah2fxhgerh3fedw.centralindia-01.azurewebsites.net/posts/view/${id}`;
 
     navigator.clipboard
       .writeText(shareLink)

@@ -58,7 +58,7 @@ function Dashboard() {
     const fetchUserDetails = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8000/user/getUserDetails/like/save?userID=${userID}`,
+          `https://clubsphereserver.azurewebsites.net/user/getUserDetails/like/save?userID=${userID}`,
           {
             headers: {
               "Content-Type": "application/json",
@@ -99,7 +99,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:8000/user/clubPosts", {
+        const response = await fetch("https://clubsphereserver.azurewebsites.net/user/clubPosts", {
           headers: {
             "Content-Type": "application/json",
             authorization: `bearer ${JSON.parse(

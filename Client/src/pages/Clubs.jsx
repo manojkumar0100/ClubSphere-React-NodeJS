@@ -76,7 +76,7 @@ const Clubs = () => {
     const fetchAdmins = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8000/user/getClubName/${userID}`,
+          `https://clubsphereserver.azurewebsites.net/user/getClubName/${userID}`,
           {
             headers: {
               "Content-Type": "application/json",
@@ -113,7 +113,7 @@ const Clubs = () => {
   async function handleJoinClick(clubID, clubName) {
     const userID = user._id;
     try {
-      const response = await fetch("http://localhost:8000/user/join/club", {
+      const response = await fetch("https://clubsphereserver.azurewebsites.net/user/join/club", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

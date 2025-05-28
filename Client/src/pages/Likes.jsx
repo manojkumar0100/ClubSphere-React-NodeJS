@@ -87,7 +87,7 @@ const Likes = () => {
     const fetchLikedPosts = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8000/user/posts/like/${userID}`,
+          `https://clubsphereserver.azurewebsites.net/user/posts/like/${userID}`,
           {
             headers: {
               "Content-Type": "application/json",

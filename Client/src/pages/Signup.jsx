@@ -90,7 +90,7 @@ const Signup = () => {
     };
     console.log(userData);
 
-    let result = await fetch("http://localhost:8000/register",{
+    let result = await fetch("https://clubsphereserver.azurewebsites.net/register",{
             method:"post",
             body:JSON.stringify(userData),
             headers:{'Content-Type': 'application/json'}

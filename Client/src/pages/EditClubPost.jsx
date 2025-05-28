@@ -79,7 +79,7 @@ const EditClubPost = () => {
   useEffect(() => {
     const fetchPostDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:8000/admin/clubPost/getbyId/${postId}`, {
+        const response = await fetch(`https://clubsphereserver.azurewebsites.net/admin/clubPost/getbyId/${postId}`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -118,7 +118,7 @@ const EditClubPost = () => {
 
   const handleUpdatePost = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/admin/update/${postId}`, {
+      const response = await fetch(`https://clubsphereserver.azurewebsites.net/admin/update/${postId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

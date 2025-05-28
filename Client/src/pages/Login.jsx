@@ -94,7 +94,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Login clicked!");
-    let result = await fetch("http://localhost:8000/login",{
+    let result = await fetch("https://clubsphereserver.azurewebsites.net/login",{
             method:"post",
             body:JSON.stringify({email,password,role}),
             headers:{'Content-Type': 'application/json'}

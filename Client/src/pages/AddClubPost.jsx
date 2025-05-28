@@ -94,9 +94,9 @@ const AddClubPost = () => {
     const adminID = JSON.parse(auth)._id;
 
     try {
-      const postData = { adminID,clubName, title, description, coordinators };
+      const postData = { adminID, clubName, title, description, coordinators };
       console.log(postData);
-      const response = await fetch("http://localhost:8000/admin/addClubPost", {
+      const response = await fetch("https://clubsphereserver.azurewebsites.net/admin/addClubPost", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

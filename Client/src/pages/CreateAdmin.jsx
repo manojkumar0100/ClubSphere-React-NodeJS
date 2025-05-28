@@ -78,7 +78,7 @@ const CreateAdmin = () => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     try{
-        const response = await fetch("http://localhost:8000/super/createAdmin", {
+        const response = await fetch("https://clubsphereserver.azurewebsites.net/super/createAdmin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

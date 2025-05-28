@@ -85,7 +85,7 @@ const Saved = () => {
     const fetchLikedPosts = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8000/user/posts/save/${userID}`,
+          `https://clubsphereserver.azurewebsites.net/user/posts/save/${userID}`,
           {
             headers: {
               "Content-Type": "application/json",

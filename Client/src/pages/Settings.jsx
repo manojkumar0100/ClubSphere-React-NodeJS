@@ -75,7 +75,7 @@ const Settings = () => {
     try {
       const userId = auth._id; 
       const role = auth.role;
-      const response = await fetch('http://localhost:8000/changePassword', {
+      const response = await fetch('https://clubsphereserver.azurewebsites.net/changePassword', {
         method: 'POST',
         headers: {
           "Content-Type": "application/json",

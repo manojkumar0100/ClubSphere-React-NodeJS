@@ -95,7 +95,7 @@ const ClubPosts = () => {
       const adminID = JSON.parse(auth)._id;
       try {
         const response = await fetch(
-          `http://localhost:8000/admin/get/adminPosts/${adminID}`,
+          `https://clubsphereserver.azurewebsites.net/admin/get/adminPosts/${adminID}`,
           {
             headers: {
               "Content-Type": "application/json",
@@ -126,7 +126,7 @@ const ClubPosts = () => {
     console.log(postId);
     try {
       const response = await fetch(
-        `http://localhost:8000/admin/delete/clubPosts/${postId}`,
+        `https://clubsphereserver.azurewebsites.net/admin/delete/clubPosts/${postId}`,
         {
           method: "DELETE",
           headers: {
