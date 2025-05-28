@@ -96,7 +96,8 @@ The app is built using **React.js**, **Node.js**, **Express.js**, and **MongoDB*
 | Dashboard         | ![Dashboard](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/addd61e3-d5d7-4e2d-8d30-5399be4a9121)   |
 | CreateAdmin       | ![CreateAdmin](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/7233ef03-1732-4eb9-8285-ea35adb8cffd) |
 | Clubs             | ![Clubs](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/ec70a386-d1d4-40a4-8bfe-14176ff4a745)       |
-| Admin Dashboard   | ![AdminDash]<img src="lient/public/screenshots/admindashboard.png" width="70%" />   |
+| Admin Dashboard   | ![AdminDash]
+<img src="lient/public/screenshots/admindashboard.png" width="70%" />   |
 | Add Post          | ![AddPost](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/25183c07-e03e-43b3-8bab-2fe36e8d1503)     |
 | Saved Post        | ![SavedPost](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/b0e59ed7-d41a-419e-8345-898539a8f681)   |
 | Liked Post        | ![LikedPost](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/11f185db-585a-4f0d-b185-1adaa4132d96)   |
