@@ -91,19 +91,55 @@ The app is built using **React.js**, **Node.js**, **Express.js**, and **MongoDB*
 
 ## 📷 Screenshots
 
-| Title             | Image                                                                                                                       |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Dashboard         | ![Dashboard](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/addd61e3-d5d7-4e2d-8d30-5399be4a9121)   |
-| CreateAdmin       | ![CreateAdmin](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/7233ef03-1732-4eb9-8285-ea35adb8cffd) |
-| Clubs             | ![Clubs](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/ec70a386-d1d4-40a4-8bfe-14176ff4a745)       |
-| Admin Dashboard   | ![AdminDash]
-<img src="lient/public/screenshots/admindashboard.png" width="70%" />   |
-| Add Post          | ![AddPost](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/25183c07-e03e-43b3-8bab-2fe36e8d1503)     |
-| Saved Post        | ![SavedPost](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/b0e59ed7-d41a-419e-8345-898539a8f681)   |
-| Liked Post        | ![LikedPost](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/11f185db-585a-4f0d-b185-1adaa4132d96)   |
-| Settings          | ![Settings](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/658fa8a9-a200-44e2-8746-d27c01362f29)    |
-| Registration Page | ![Register](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/63971d97-53c1-49e9-9260-59b51670a230)    |
-| Login Page        | ![Login](https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/8eef58b2-a7f2-464a-b317-cffce4dc3280)       |
+## 📊 Dashboard
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/addd61e3-d5d7-4e2d-8d30-5399be4a9121" width="70%" />
+</div>
+
+## 👤 Create Admin
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/7233ef03-1732-4eb9-8285-ea35adb8cffd" width="70%" />
+</div>
+
+## 🏛️ Clubs
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/ec70a386-d1d4-40a4-8bfe-14176ff4a745" width="70%" />
+</div>
+
+## 🛡️ Admin Dashboard
+<div align="center">
+  <img src="Client/public/screenshots/admindashboard.png" width="70%" />
+</div>
+
+## ➕ Add Post
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/25183c07-e03e-43b3-8bab-2fe36e8d1503" width="70%" />
+</div>
+
+## 💾 Saved Post
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/b0e59ed7-d41a-419e-8345-898539a8f681" width="70%" />
+</div>
+
+## ❤️ Liked Post
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/11f185db-585a-4f0d-b185-1adaa4132d96" width="70%" />
+</div>
+
+## ⚙️ Settings
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/658fa8a9-a200-44e2-8746-d27c01362f29" width="70%" />
+</div>
+
+## 📝 Registration Page
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/63971d97-53c1-49e9-9260-59b51670a230" width="70%" />
+</div>
+
+## 🔐 Login Page
+<div align="center">
+  <img src="https://github.com/Ritesh512/ClubManagementAppFrontend/assets/89989932/8eef58b2-a7f2-464a-b317-cffce4dc3280" width="70%" />
+</div>
 
 ---
 
